@@ -9,7 +9,9 @@ function cars(){
 	var car3 = "Mazda";
 
 	//Create an array declaration named cars and set each car variable as the values.
+var cars=["Toyota", "Jeep Wrangler", "Mazda"];
 
+console.log(cars[0]);
 	//Print the created array
 
 	//Print the array length
@@ -18,7 +20,7 @@ function cars(){
 	return;
 }
 
-console.log(cars());
+console.log(cars(cars[1]));
 
 /*
 * Demonstrates array declarions by storing parameters into a single array.
@@ -28,7 +30,9 @@ console.log(cars());
 */
 function order(food, drink, dessert){
 	//Store the parameters in an array called "order"
+var order=["May I haave a"];
 
+console.log(order[0])
 	//Print the array named "order"
 	
 	//Print the length of the array named "order"
