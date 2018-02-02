@@ -3,15 +3,16 @@
 *
 * Return	Cars (array), Cars length	
 */
+
+
 function cars(){
 	var car1 = "Toyota";
 	var car2 = "Jeep Wrangler";
 	var car3 = "Mazda";
+var cars = [car1, car2, car3];
 
 	//Create an array declaration named cars and set each car variable as the values.
-var cars=["Toyota", "Jeep Wrangler", "Mazda"];
-
-console.log(cars[0]);
+console.log(cars[0])
 	//Print the created array
 
 	//Print the array length
@@ -20,7 +21,7 @@ console.log(cars[0]);
 	return;
 }
 
-console.log(cars(cars[1]));
+console.log(cars(cars[0]));
 
 /*
 * Demonstrates array declarions by storing parameters into a single array.
@@ -29,10 +30,9 @@ console.log(cars(cars[1]));
 * Return 	An order as a complete sentence represented as a string
 */
 function order(food, drink, dessert){
+	return "Can I get a "+food+", "+drink+" and a "+dessert
 	//Store the parameters in an array called "order"
-var order=["May I haave a"];
 
-console.log(order[0])
 	//Print the array named "order"
 	
 	//Print the length of the array named "order"
@@ -42,7 +42,7 @@ console.log(order[0])
 }
 
 console.log(order("Burger", "root beer", "frosty"));
-
+var text = "";
 var currentClasses = [
 	"Band", 
 	"Biology", 
@@ -52,6 +52,12 @@ var currentClasses = [
 	"Physics",
 	"Web Development"
 ];
+
+var i;
+for (i = 0 ;i < currentClasses.length; i++) {
+	text+="I have " +currentClasses[i] + "<br>";
+}
+console.log(text);
 
 /*
 * Uses for loop to iterate through array passed as a parameter
